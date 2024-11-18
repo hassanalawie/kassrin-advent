@@ -46,7 +46,7 @@ async function getGift(day: number): Promise<Gift> {
   return gift;
 }
 
-export default async function GiftPageWrapper({ params }: any) {
+export default async function GiftPageWrapper({ params }:{params:Promise<{day: string}>}) {
   const { day } = await params;
   const gift = await getGift(parseInt(day));
   return <GiftPage gift={gift} day={day} />;

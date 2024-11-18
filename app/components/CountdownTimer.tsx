@@ -35,7 +35,9 @@ const CountdownTimer: FC<CountdownTimerProps> = ({ targetDate }) => {
 
     // Call updateTimer immediately to set the initial value
     updateTimer();
-
+    if(timeRemaining === "hi"){
+      console.log(timeRemaining)
+    }
     // Set interval to update every second
     const interval = setInterval(updateTimer, 1000);
 
