@@ -14,6 +14,17 @@ export interface Gift {
 async function getGift(day: number): Promise<Gift> {
   const gifts: Array<Gift> = [
     {
+      id: "aaaaaaaaaaaaa01",
+      title: "Hi pretty girlfriend",
+      subTitle:
+        "Welcome to the first day of wonderful surprises 0.0 I hope you like this secret gifty ",
+      giftText: "Penguinring! I drew u as a penguin hehehe",
+      giftUrl:
+        "../../kassrinPengy.jpg",
+      day: 1,
+      isAvailable: true, // Availability depends on the current date logic
+    },
+    {
       id: "aaaaaaaaaaaaa20",
       title: "A Cozy Christmas Surprise!",
       subTitle:
