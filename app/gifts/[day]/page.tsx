@@ -25,6 +25,50 @@ async function getGift(day: number): Promise<Gift> {
       isAvailable: true, // Availability depends on the current date logic
     },
     {
+      id: "aaaaaaaaaaaaa02",
+      title: "The Adventures of Australian Psyduck",
+      subTitle:
+        "!!! Australian Psyduck hijacked todays gift!! I wonder what he wants to show you",
+      giftText: "Check out the video here!! https://drive.google.com/file/d/1TyMjGU9ZDI3mgEoiHVvhD8Eddepuu-5U/view?usp=sharing",
+      giftUrl:
+        "../../AustralianPsyduck1.png",
+      day: 2,
+      isAvailable: true, // Availability depends on the current date logic
+    },
+    {
+      id: "aaaaaaaaaaaaa03",
+      title: "~Wo Ai Ni Kassrin~",
+      subTitle:
+        "This is a fun one, and one I think you'll be proud of me for",
+      giftText: "Check out the SONG here!! https://drive.google.com/file/d/1RRfJF6hG1ma4aq9fnmr4TNXvZfNvz1Kp/view?usp=sharing",
+      giftUrl:
+        "../../woAiNiKassrin.png",
+      day: 3,
+      isAvailable: true, // Availability depends on the current date logic
+    },
+    {
+      id: "aaaaaaaaaaaaa05",
+      title: "Some things come from the heart",
+      subTitle:
+        "This was a lot of work :') I hope you like it",
+      giftText: "Check out my poem here!! https://drive.google.com/file/d/1Uu_u4R4Z3Cg6iuubrPzINsQHGHBGEJ6c/view?usp=sharing",
+      giftUrl:
+        "../../heart.webp",
+      day: 5,
+      isAvailable: true, // Availability depends on the current date logic
+    },
+    {
+      id: "aaaaaaaaaaaaa04",
+      title: "Feeling Bored?",
+      subTitle:
+        "What's something we like to do? Hmmmmmm? Open the gift to see a personalized version of one of our favourite games ;p",
+      giftText: "Good luckkkkkk",
+      giftUrl:
+        "../../theMini.jpeg",
+      day: 4,
+      isAvailable: true, // Availability depends on the current date logic
+    },
+    {
       id: "aaaaaaaaaaaaa20",
       title: "A Cozy Christmas Surprise!",
       subTitle:
