@@ -69,6 +69,17 @@ async function getGift(day: number): Promise<Gift> {
       isAvailable: true, // Availability depends on the current date logic
     },
     {
+      id: "aaaaaaaaaaaaa06",
+      title: "Its a good idea to rap your presents",
+      subTitle:
+        "Don't you love Christmas Carols :)",
+      giftText: "https://drive.google.com/file/d/1vFHXBbhdwB_DA310yE5f3llwkJZoKGzD/view?usp=sharing",
+      giftUrl:
+        "../../coolPsyduck.png",
+      day: 6,
+      isAvailable: true, // Availability depends on the current date logic
+    },
+    {
       id: "aaaaaaaaaaaaa20",
       title: "A Cozy Christmas Surprise!",
       subTitle:
